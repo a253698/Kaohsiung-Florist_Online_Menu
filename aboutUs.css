@@ -1,0 +1,100 @@
+body {
+    font-size: bold;
+    font-family: 'Gruppo', cursive;
+}
+
+hr {
+    width: 50%;
+    margin: auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* navbar */
+
+#navbarResponsive {
+    color: black;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    color: black;
+}
+
+.navbar-brand:hover {
+    color: #5e5e5e;
+}
+
+.nav-link {
+    color: black;
+}
+
+p::selection {
+    background-color: f9dcc4;
+}
+
+
+/* header */
+
+#my-header-div {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('');
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#masthead #my-header-div h1 {
+    font-weight: bolder;
+}
+
+.fw-light {
+    color: #E0E0E0;
+    font-family: 'Gruppo', cursive;
+    font-size: 60px;
+}
+
+.lead {
+    color: #E0E0E0;
+    font-size: 30bootpx;
+}
+
+#btn-seeOurCollection {
+    font-size: small;
+    margin-top: 3%;
+    background-color: transparent;
+    color: #E0E0E0;
+    text-transform: uppercase;
+    font-weight: lighter;
+    border: solid;
+    border-width: thin;
+}
+
+#btn-seeOurCollection:hover {
+    color: #5e5e5e;
+    transition: 0.5s;
+}
+
+
+/* reviews 2 */
+
+#reviewsCarousel img {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+/* footer 2 */
+
+footer {
+    background-color: #E0E0E0;
+}

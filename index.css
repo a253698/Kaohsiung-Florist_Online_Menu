@@ -1,0 +1,202 @@
+body {
+    font-size: bold;
+    font-family: 'Gruppo', cursive;
+}
+
+hr {
+    width: 50%;
+    margin: auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* navbar */
+
+#navbarResponsive {
+    color: black;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    color: black;
+}
+
+.navbar-brand:hover {
+    color: #5e5e5e;
+}
+
+.nav-link {
+    color: black;
+}
+
+p::selection {
+    background-color: f9dcc4;
+}
+
+
+/* header */
+
+#my-header-div {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://user-images.githubusercontent.com/32476235/168511347-d65cb331-a608-411b-aef8-777692899891.JPG');
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#masthead #my-header-div h1 {
+    font-weight: bolder;
+}
+
+.fw-light {
+    color: #E0E0E0;
+    font-family: 'Gruppo', cursive;
+    font-size: 60px;
+}
+
+.lead {
+    color: #E0E0E0;
+    font-size: 30bootpx;
+}
+
+#btn-seeOurCollection {
+    font-size: small;
+    margin-top: 3%;
+    background-color: transparent;
+    color: #E0E0E0;
+    text-transform: uppercase;
+    font-weight: lighter;
+    border: solid;
+    border-width: thin;
+}
+
+#btn-seeOurCollection:hover {
+    color: #5e5e5e;
+    transition: 0.5s;
+}
+
+
+/* product */
+
+.product {
+    cursor: pointer;
+    margin-bottom: 2rem;
+    height: auto;
+}
+
+.product img {
+    transition: 0.3s all;
+    width: 300px;
+    height: 400px;
+    box-sizing: border-box;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.product:hover img {
+    opacity: 0.7;
+}
+
+.product .btn-add-to-cart {
+    background-color: transparent;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+
+.product:hover .btn-add-to-cart {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.btn-add-to-cart {
+    font-size: small;
+    margin-top: 3%;
+    background-color: transparent;
+    color: black;
+    text-transform: uppercase;
+    font-weight: lighter;
+    border: solid;
+    border-width: thin;
+}
+
+
+/* banner */
+
+#banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/image/banner.png);
+    width: 100%;
+    max-width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: top 70px center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-weight: bolder;
+    color: white;
+}
+
+#banner button {
+    font-size: small;
+    margin-top: 3%;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    font-weight: lighter;
+    border: solid;
+    border-width: thin;
+}
+
+#btn-shopMothersDay {
+    font-size: small;
+    margin-top: 3%;
+    background-color: transparent;
+    color: #E0E0E0;
+    text-transform: uppercase;
+    font-weight: lighter;
+    border: solid;
+    border-width: thin;
+}
+
+#btn-shopMothersDay:hover {
+    color: #5e5e5e;
+    transition: 0.5s;
+}
+
+
+/* reviews */
+
+#reviews img {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+/* reviews 2 */
+
+#reviewsCarousel img {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+/* footer 2 */
+
+footer {
+    background-color: #E0E0E0;
+}

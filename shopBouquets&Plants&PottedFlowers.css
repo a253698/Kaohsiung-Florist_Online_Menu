@@ -1,0 +1,105 @@
+body {
+    font-size: bold;
+    font-family: 'Gruppo', cursive;
+}
+
+hr {
+    width: 50%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* navbar */
+
+#navbarResponsive {
+    color: black;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    color: black;
+}
+
+.navbar-brand:hover {
+    color: #5e5e5e;
+}
+
+.nav-link {
+    color: black;
+}
+
+p::selection {
+    background-color: f9dcc4;
+}
+
+
+/* product */
+
+.product {
+    cursor: pointer;
+    margin-bottom: 2rem;
+    height: auto;
+}
+
+.product img {
+    transition: 0.3s all;
+    width: 300px;
+    height: 400px;
+    box-sizing: border-box;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.product:hover img {
+    opacity: 0.7;
+}
+
+.product .btn-add-to-cart {
+    background-color: transparent;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+
+.product:hover .btn-add-to-cart {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+/*pagination*/
+
+.pagination .page-link {
+    color: black;
+}
+
+#featured>div>nav>ul>li:nth-child(n):hover>a {
+    background-color: #E0E0E0;
+    color: black;
+}
+
+#featured>div>nav>ul>li.page-item.active>a {
+    background-color: #5e5e5e;
+}
+
+.btn-add-to-cart {
+    font-size: small;
+    margin-top: 3%;
+    background-color: transparent;
+    color: black;
+    text-transform: uppercase;
+    font-weight: lighter;
+    border: solid;
+    border-width: thin;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #E0E0E0;
+}
